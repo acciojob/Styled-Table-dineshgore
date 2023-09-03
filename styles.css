@@ -1,1 +1,32 @@
 /* your code */
+<style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #aaa;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tbody tr:hover {
+            background-color: #e0e0e0;
+        }
+
+        caption {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+        </style>
